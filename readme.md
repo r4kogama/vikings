@@ -1,6 +1,6 @@
 # JS | Vikings *Object Oriented Programming*
 
-## Introduction
+## Introducción
 
 En este ejercicio tendrás que aplicar los conceptos de programación orientada a objetos y herencia con JavaScript a nuestros amigos vikingos.
 
@@ -25,13 +25,11 @@ git push origin master
 
 ### Tests, test, tests!
 
-Seguimos trabajando con tests. Para ello habre el fichero `SpecRunner.html`!
+Seguimos trabajando con tests. Para ello abre el fichero `SpecRunner.html`!
 
 **Ejecuta los tests**
 
-Verás que no se ejecuta ninguno de los tests construidos. Abre el fichero `tests/VikingSpec.js`  y descomenta todas las líneas de código que comienzan con `it()`. Una vez hecho esto implementa el código en el fichero`src/viking.js` para pasar los tests.
-
-Comienza descomentando la función `it()` de las **líneas 10-12**:
+Verás que no se ejecuta ninguno de los tests construidos. Abre el fichero `tests/VikingSpec.js`  y descomenta la función `it()` de las **líneas 10-12**:
 
 ```javascript
   describe("constructor function", function () {
