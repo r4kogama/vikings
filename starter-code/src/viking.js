@@ -76,6 +76,7 @@ class War {
         return Math.floor(Math.random() * army.length);
     }
 
+
     vikingAttack() {
         //seleccion de vikingo al azar
         let vikingRandom = this.vikingArmy[this.getRandomSoldier(this.vikingArmy)];
@@ -110,6 +111,17 @@ class War {
         return damageCombat;//retornar el resultado del combate
     }
     showStatus() {
+        if (this.vikingArmy.length <= 0) {
+            return "Saxons have fought for their lives and survive another day...";
+        }
+        if (this.saxonArmy.length <= 0) {
+            return "Vikings have won the war of the century!"
+        }
+        //empate
+        if (this.saxonArmy.length <= 1 && this.vikingArmy.length <= 1) {
+            return "Vikings and Saxons are still in the thick of battle.";
+        }
+
 
     }
 }
